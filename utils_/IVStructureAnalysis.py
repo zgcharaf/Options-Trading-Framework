@@ -4,8 +4,9 @@ import numpy as np
 import pandas as pd
 
 class IVStructureAnalysis:
-    def __init__(self, term_structures_df):
+    def __init__(self, term_structures_df,df):
         self.term_structures_df = term_structures_df
+        self.df = df
 
     def calculate_forward_volatility(self, short_term_iv, long_term_iv, short_term_days, long_term_days):
         """
@@ -44,7 +45,7 @@ class IVStructureAnalysis:
             price_column = 'C_BID' if decision == 'Sell' else 'C_ASK'
     
     # Filter the DataFrame once per option_id to avoid repetition
-            option_data = df[(df['Option_Contract_ID'] == option_id) & (df['QUOTE_DATE'] == quote_date)]
+            option_data = self.df[(self.df['Option_Contract_ID'] == option_id) & (self.df['QUOTE_DATE'] == quote_date)]
     
             if not option_data.empty:
                 decisions.append({
@@ -58,7 +59,7 @@ class IVStructureAnalysis:
             'C_GAMMA': option_data['C_GAMMA'].values[0],
             'C_VEGA': option_data['C_VEGA'].values[0],
             'EXPIRE_DATE': option_data['EXPIRE_DATE'].values[0],
-            'UNDERLYING': option_data['UNDERLYING_LAST_x'].values[0],
+            'UNDERLYING': option_data['UNDERLYING_LAST'].values[0],
         })
 
 
