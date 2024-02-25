@@ -62,7 +62,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Charaf ZGUIOUAR - email@example.com
+Charaf ZGUIOUAR - zgcharaf@gmail.com
 
 Project Link: https://github.com/zgcharaf/Options-Trading-Framework
 
