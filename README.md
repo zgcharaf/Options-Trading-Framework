@@ -22,10 +22,10 @@ Ensure you have the following installed:
 - Any additional libraries used in the project
 - The data: https://www.kaggle.com/datasets/kylegraupe/aapl-options-data-2016-2020
 - Similar Datasets:
-   -$TSLA Option Chains : https://www.kaggle.com/datasets/kylegraupe/tsla-daily-eod-options-quotes-2019-2022
-   -$SPY Option Chains : https://www.kaggle.com/datasets/kylegraupe/spy-daily-eod-options-quotes-2020-2022
-   -$NVDA Option Chains : https://www.kaggle.com/datasets/kylegraupe/nvda-daily-option-chains-q1-2020-to-q4-2022
-   -$QQQ Option Chains : https://www.kaggle.com/datasets/kylegraupe/qqq-daily-option-chains-q1-2020-to-q4-2022
+- $TSLA Option Chains : https://www.kaggle.com/datasets/kylegraupe/tsla-daily-eod-options-quotes-2019-2022
+- $SPY Option Chains : https://www.kaggle.com/datasets/kylegraupe/spy-daily-eod-options-quotes-2020-2022
+- $NVDA Option Chains : https://www.kaggle.com/datasets/kylegraupe/nvda-daily-option-chains-q1-2020-to-q4-2022
+- $QQQ Option Chains : https://www.kaggle.com/datasets/kylegraupe/qqq-daily-option-chains-q1-2020-to-q4-2022
 
 ### Installation
 
