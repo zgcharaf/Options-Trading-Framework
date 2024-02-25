@@ -7,10 +7,13 @@ This project focuses on developing and implementing an options trading strategy 
 ### Key Features
 
 - **Greeks Calculation:** Utilizes models like Black-Scholes for real-time calculation of options Greeks.
+- **Finite difference and binomial trees:** Utilizes these models to price American options.
 - **IV Term Structure Analysis:** Analyzes IV across various expiration dates to identify trading opportunities.
 - **Strategy Implementation:** Employs strategies based on market conditions (contango or backwardation) to make buy/sell decisions.
 - **FIFO Order Tracking:** Manages open positions and accurately calculates P&L using FIFO logic.
 - **Realized & Unrealized PnL Calculation:** Evaluates the financial performance of executed trades.
+- **Volatility surface modeling** Generates a 3D surface video of how the surface evolves.
+
 
 ## Getting Started
 
